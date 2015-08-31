@@ -1,0 +1,91 @@
+/* theme: Default */
+body {
+  background: #313131;
+}
+.logo-background {
+  background-color: #313131;
+  height: 100px;
+}
+.logo-background .logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation {
+  padding: 10px 15px 8px 15px;
+  max-width: 1000px;
+}
+@media (min-width: 767px) {
+  .navigation {
+    padding: 20px 10px 20px 10px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation .uk-width-1-5 {
+    padding-left: 0px;
+    margin-top: 5px;
+  }
+}
+.navigation .dish-square-icon {
+  background: #4a4b4c;
+}
+.navigation .uk-overlay-area {
+  background: #eea91f;
+}
+@media (max-width: 767px) {
+  .navigation .uk-overlay-area {
+    border-radius: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .navigation .uk-overlay-area-content {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+}
+.menus {
+  padding: 20px 15px 5px 15px;
+}
+.uk-modal-dialog {
+  background: #ffffff;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.main-image {
+  background: #313131;
+  border-top: 2px solid #f0a741;
+  border-bottom: 2px solid #f0a741;
+}
+.main-image-about {
+  background: #313131;
+  border-top: 2px solid #f0a741;
+  border-bottom: 2px solid #f0a741;
+}
+.scrolls {
+  padding-top: 80px;
+}
+.scrolls img {
+  margin-top: -50px;
+}
+.feast-footer {
+  background: #313131;
+  margin-top: 20px;
+  border-top: 3px solid white;
+}
+.feast-footer .phone,
+.feast-footer .email,
+.feast-footer .facebook {
+  color: #e4e4e4;
+}
+.feast-footer ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 0;
+}
+.footer-content {
+  padding: 40px 0 40px 0;
+}
+
+h5{
+	font-size: 1.5em;
+	color: #fff;
+}

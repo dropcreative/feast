@@ -1,0 +1,55 @@
+/* Change background color and font family */
+body {
+  background: #313131;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  background-image: url(site-login-logo.png);
+  width: auto;
+  height: auto;
+  background-size: 160px;
+  padding-bottom: 100px;
+}
+
+/* Add a few changes to the color and style of form itself */
+.login label {
+  color: #d77f11;
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.login form .input {
+  font-weight: normal;
+}
+
+.login #backtoblog a, .login #nav a {
+  color: #d77f11;
+}
+
+.wp-core-ui .button-primary {
+  background: #313131;
+    border-color: #d77f11;
+    border-width: 2px;
+    color: #f0a741;
+}
+
+
+.wp-core-ui .button-primary:hover{
+      background:  #313131;
+  border-color: #d77f11;
+    color: #fff;
+}
+
+.login .message{
+    border-left: 4px solid #f0a741;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:focus{
+    color: #363636;
+    border-color:#f0a741;
+}
+input[type=checkbox]:checked:before {
+  color: #f0a741;
+}

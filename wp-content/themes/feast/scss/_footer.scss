@@ -1,0 +1,17 @@
+.feast-footer{
+	background:$global-color;
+	margin-top:20px;
+	border-top: 3px solid white;
+	.phone, .email, .facebook{
+		color:$alert-background;
+	}
+	ul{
+		list-style-type: none;
+		text-transform:uppercase;
+		padding:0;
+	}
+}
+
+.footer-content{
+	padding: 40px 0 40px 0;
+}

@@ -1,0 +1,72 @@
+.feast-gallery {
+    border: 1px solid #fff;
+}
+
+.uk-overlay-hover:hover {
+    //    background: rgba(0,0,0,.4);
+    h4 {
+        color: #fff;
+        font-size: 1.6rem;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+.gallery-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-top: 2px solid $global-primary-border;
+    border-bottom: 2px solid $global-primary-border;
+    @media screen and( min-width: 767px) {
+        margin-top: 20px;
+    }
+}
+
+// Good Vibes - Great Vibes - Google Font
+$great-vibes: 'Great Vibes',
+cursive;
+// Styling for Gallery Heading
+.good-vibes {
+    h1 {
+        font-family: $great-vibes;
+        color: #fff;
+        font-size: 4rem;
+        padding: 10px;
+        //             text-align: center;
+    }
+    h3 {
+        color: rgba(255, 255, 255, .6);
+        font-family: $base-body-font-family;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+.gallery-sub-text {
+    z-index: -200;
+    background: none;
+    color: #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    z-index: 100;
+    border-radius: 0 0 8px 8px;
+    h1, h2, h3, h4, h5, h6, p {
+        font-family: $base-body-font-family;
+        color: #fff;
+        margin: 0;
+        padding-left: 14px;
+        padding-right: 14px;
+        -webkit-font-smoothing: antialiased;
+    }
+    h4 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0px;
+        padding-top: 14px;
+    }
+    p {
+        padding-bottom: 16px;
+        margin-top: 5px;
+    }
+}

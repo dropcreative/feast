@@ -1,0 +1,37 @@
+
+.ninja-forms-cont{
+//  background:$alert-background;
+}
+.ninja-forms-form-wrap{
+  width: 80%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ninja-forms-form-wrap label, .ninja-forms-required-items{
+  color: $global-color;
+  font-family: $base-body-font-family;
+  font-weight: 300;
+}
+.ninja-forms-required-items{
+padding-bottom: 10px;
+}
+
+.ninja-forms-field {
+  background: #fff;
+  color: #5f5f5f;
+  font-family: $base-body-font-family;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.1rem;
+  border: none;
+}
+
+
+.ninja-forms-response-msg{
+  color: $global-color;
+  font: $base-body-font-family;
+  text-transform: uppercase;
+    text-align: center;
+  font-size: 1.4rem;
+}
+

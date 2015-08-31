@@ -11,3 +11,25 @@ wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
+# General CodeKit files to ignore
+
+# OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SASS
+.sass-cache
+
+# SublimeText
+*.sublime-project
+*.sublime-workspace
+
+# CodeKit
+config.codekit
+js/core.min.js
+js/plugins.min.js

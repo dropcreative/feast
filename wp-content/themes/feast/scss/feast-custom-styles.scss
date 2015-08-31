@@ -1,0 +1,36 @@
+
+@import "variables.scss";
+@import "navigation.scss";
+
+html{
+    background: $global-color;
+}
+@import "slideshow.scss";
+@import "footer.scss";
+@import "homepage.scss";
+@import "menupage.scss";
+ //LOAD NINJA FORMS STYLES
+@import "customNinjaForm.scss";
+@import "gallery_style.scss";
+
+// Modal close button
+.uk-modal-dialog > .uk-close:first-child {
+  margin: -20px -20px 0 0;
+  float: right;
+    color: $global-link-color;
+}
+
+//.uk-grid {
+//    display: -webkit-box;
+//    display: -moz-box;
+//    display: -ms-flexbox;
+//    display: -webkit-flex;
+//    -ms-flex-wrap: wrap;
+//    -webkit-flex-wrap: wrap;
+//    flex-wrap: wrap;
+//    /* 1 */
+//    margin: 0;
+//    padding: 0;
+//    list-style: none;
+//}
+
